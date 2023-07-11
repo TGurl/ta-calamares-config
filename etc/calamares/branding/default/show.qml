@@ -22,7 +22,7 @@ Presentation
 
     Timer {
         id: advanceTimer
-        interval: 5000
+        interval: 10000
         running: presentation.activatedInCalamares
         repeat: true
         onTriggered: nextSlide()
@@ -35,7 +35,7 @@ Presentation
 
     Image {
         id: background1
-        source: "1-welcometo.svg"
+        source: "1-welcome.png"
         width: parent.width; height: parent.height
         horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
@@ -46,7 +46,7 @@ Presentation
     Text {
         anchors.horizontalCenter: background.horizontalCenter
         anchors.top: background.bottom
-        text: "Welcome to"
+        text: "Welcome"
         wrapMode: Text.WordWrap
         width: presentation.width
         horizontalAlignment: Text.Center
@@ -60,7 +60,7 @@ Presentation
 
     Image {
         id: background2
-        source: "2-carli.svg"
+        source: "2-transway.png"
         width: parent.width; height: parent.height
         horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
@@ -71,7 +71,7 @@ Presentation
     Text {
         anchors.horizontalCenter: background.horizontalCenter
         anchors.top: background.bottom
-        text: "Carli"
+        text: "the Trans way"
         wrapMode: Text.WordWrap
         width: presentation.width
         horizontalAlignment: Text.Center
@@ -85,7 +85,7 @@ Presentation
 
     Image {
         id: background3
-        source: "3-carliis.svg"
+        source: "3-bbc.png"
         width: parent.width; height: parent.height
         horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
@@ -96,7 +96,7 @@ Presentation
     Text {
         anchors.horizontalCenter: background.horizontalCenter
         anchors.top: background.bottom
-        text: "Carli stands for"
+        text: "Queen of Spades"
         wrapMode: Text.WordWrap
         width: presentation.width
         horizontalAlignment: Text.Center
@@ -110,7 +110,7 @@ Presentation
 
     Image {
         id: background4
-        source: "4-customised.svg"
+        source: "4-boobs.png"
         width: parent.width; height: parent.height
         horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
@@ -121,7 +121,7 @@ Presentation
     Text {
         anchors.horizontalCenter: background.horizontalCenter
         anchors.top: background.bottom
-        text: "Customized"
+        text: "Big Boobs"
         wrapMode: Text.WordWrap
         width: presentation.width
         horizontalAlignment: Text.Center
@@ -135,7 +135,7 @@ Presentation
 
     Image {
         id: background5
-        source: "5-archlinux.svg"
+        source: "5-incest.png"
         width: parent.width; height: parent.height
         horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
@@ -146,7 +146,7 @@ Presentation
     Text {
         anchors.horizontalCenter: background.horizontalCenter
         anchors.top: background.bottom
-        text: "Arch Linux"
+        text: "incest is good"
         wrapMode: Text.WordWrap
         width: presentation.width
         horizontalAlignment: Text.Center
@@ -160,7 +160,7 @@ Presentation
 
     Image {
         id: background6
-        source: "6-iso.svg"
+        source: "6-k9cock.png"
         width: parent.width; height: parent.height
         horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
@@ -171,7 +171,7 @@ Presentation
     Text {
         anchors.horizontalCenter: background.horizontalCenter
         anchors.top: background.bottom
-        text: "ISO"
+        text: "Fuck your Dog!"
         wrapMode: Text.WordWrap
         width: presentation.width
         horizontalAlignment: Text.Center
@@ -186,7 +186,7 @@ Presentation
 
     Image {
         id: background7
-        source: "7-enjoy.svg"
+        source: "7-enjoy.png"
         width: parent.width; height: parent.height
         horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
@@ -197,7 +197,7 @@ Presentation
     Text {
         anchors.horizontalCenter: background.horizontalCenter
         anchors.top: background.bottom
-        text: "Enjoy the learning"
+        text: "Enjoy TransArch"
         wrapMode: Text.WordWrap
         width: presentation.width
         horizontalAlignment: Text.Center

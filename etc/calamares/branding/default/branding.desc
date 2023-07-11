@@ -166,7 +166,7 @@ images:
     # productIcon:         "squid.png"
     productLogo:         "logo.png"
     # productWallpaper:    "wallpaper.png"
-    productWelcome:      "transarch-2.svg"
+    productWelcome:      "default.png"
 
 # Colors for text and background components.
 #
