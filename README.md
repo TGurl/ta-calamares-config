@@ -1,0 +1,1 @@
+# ta-calamares-config
